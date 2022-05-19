@@ -11,7 +11,7 @@ export default defineConfig({
     port: 8080
   },
   build: {
-    outDir: './public',
+    outDir: './dist',
   },
   plugins: [react()]
 })
